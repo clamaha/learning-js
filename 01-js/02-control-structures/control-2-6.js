@@ -26,5 +26,4 @@ switch (number) {
     break;
   default:
     console.log("This number is not between 1 and 7");
-    break;
 }
