@@ -1,11 +1,12 @@
-/*
-let arr = [1, 2, 3, 4, 5];
 
-function average(arr) {
+//first average
+let array = [1, 2, 3, 4, 5];
+
+function average(array) {
     let total = 0;
     let count = 0;
 
-    arr.forEach(function(item, index) {
+    array.forEach(function(item, index) {
         total += item;
         count++;
     });
@@ -13,9 +14,9 @@ function average(arr) {
     return total / count;
 }
 
-console.log(average(arr));
-*/
+console.log(average(array));
 
+//second average
 let arr = [100,101,102];
 
 function average(arr) {

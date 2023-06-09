@@ -1,28 +1,27 @@
 
-/*
-let tab = [];
-let n = 15;
-let i;
-let elem = 1;
+let array = [];
+let a = 15;
+let b;
+let element = 1;
 
-for (let i = 1; i <= n; i ++) {
-   tab.push(elem);
-   elem++;
+for (let b = 1; b <= a; b ++) {
+   array.push(element);
+   element++;
 }
-tab.forEach(function(item){
+array.forEach(function(item){
     console.log(item);
 });
-*/
 
-let tab = [];
+
+let arr = [];
 let n = 303;
 let i;
 let elem = 100;
 
 for (let i = 1; i <= n; i ++) {
-   tab.push(elem);
+   arr.push(elem);
    elem++;
 }
-tab.forEach(function(item){
+arr.forEach(function(item){
     console.log(item);
 });
