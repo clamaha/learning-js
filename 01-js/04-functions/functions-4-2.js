@@ -1,10 +1,10 @@
 
 function rand10() {
-    let min = 1;
-    let max = 10;
-    let random = Math.floor(Math.random() * (max - min + 1)) + min;
-    return random;
+    return Math.floor(Math.random() * 10)+ 1;
   }
-    let num= rand10();
     
-console.log("Here's a random number between 1 and 10: " + num);
+console.log("Here's a random number between 1 and 10: " + rand10());
+
+/**
+ * rand10()
+ */

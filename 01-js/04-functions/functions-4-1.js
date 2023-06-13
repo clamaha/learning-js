@@ -9,3 +9,7 @@ let width = readlineSync.questionInt("Please enter the width of the rectangle:")
 let surface = calcSurface(length, width);
 
 console.log("The surface of the rectangle is: " + surface);
+
+/**
+ * calcSurface()
+ */
