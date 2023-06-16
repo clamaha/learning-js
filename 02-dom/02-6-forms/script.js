@@ -64,3 +64,7 @@ confirmPasswordField.addEventListener('keyup', checkPassword);
         document.body.style.backgroundColor = 'white';
       }
     })
+    function myFunction() {
+        document.getElementById("myForm").submit();
+        alert('Thanks! Your form was successfully submitted :)')
+      }
