@@ -1,2 +1,2 @@
-# algo-js
-Learning algorithmics with JavaScript
+# learning-js
+Learning algorithmics and asynchronous Javascript
